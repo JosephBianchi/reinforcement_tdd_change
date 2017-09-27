@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './changer.rb'
+require 'pry'
 
 #The objective is to take a random integer and return an array of coin values that add up to that amount. If you give me 100 pennies I give you back 4 quarters: [25,25,25,25]. If you give me 61 pennies I give you back 2 quarters, 1 dime, and 1 penny: [25, 25, 10, 1].
 
